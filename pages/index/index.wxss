@@ -1,0 +1,30 @@
+.map-container{
+  position: absolute;
+  top:0;
+  right: 0;
+  bottom:40px;
+  left:0;
+  /* background: red; */
+}
+.map{
+  width:100%;
+   height: 465px; 
+}
+.btns{
+  position: absolute;
+  display: flex;
+  right: 0;
+  bottom:0;
+  left:0;
+  background: yellow;
+}
+.btn{
+flex:1;
+line-height: 40px;
+text-align: center;
+background: #03bbd5;
+color:white;
+}
+.btn-publish{
+  background: orange;
+}
